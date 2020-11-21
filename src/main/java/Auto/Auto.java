@@ -8,7 +8,7 @@ public class Auto {
     private String model;
     private int palletsAmount;
     private int tonnage;
-    private double priceForKm;
+    protected double priceForKm;
     private int dimensionM3;
 
     public Auto (String brand, String model, int palletsAmount, int tonnage, double priceForKm, int dimensionM3 ) {
@@ -47,7 +47,7 @@ public class Auto {
     public int getTonnage (){
         return tonnage;
     }
-    public double getPriceForKm (){
+    protected double getPriceForKm (){
         return getPriceForKm();
     }
     public int getDimensionM3 () {
