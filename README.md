@@ -74,7 +74,7 @@ W trakcie opracowania
 
 ### Inspiracja
 
-Projekt inspirowany przez RABEN S.A bazujący na doświadczeniu własnym
+Projekt inspirowany i bazujący na doświadczeniu własnym
 
 ### Kontakt
 
