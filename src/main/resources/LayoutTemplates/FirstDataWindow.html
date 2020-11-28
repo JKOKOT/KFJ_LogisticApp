@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap"
+          rel="stylesheet">
+    <title>Podaj liczbę palet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="header">
+    <img id="logo" src="Logistyka.jpg" />
+</div>
+<br />
+<div id="container">
+    <div id="pallets-form">
+        <p>Podaj liczbę palet</p>
+        <form action="pallets" method="post" style="size: 100%;">
+            <input type="text" name="pallets" id="pallets" placeholder="Podaj liczbę palet..."/>
+            <br />
+            <input type="tonnage" id="tonnage" name="tonnage" placeholder="Podaj łączną wagę ładunku..."/>
+            <br />
+            <a class="find-car" href="#" onclick="this.parentNode.submit() ;"> Szukaj pojazdu</a>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
