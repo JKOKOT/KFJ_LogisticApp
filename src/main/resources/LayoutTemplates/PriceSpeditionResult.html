@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap"
+          rel="stylesheet">
+    <title>Koszt transportu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="Logistyka.jpg" />
+    </div>
+<br/>
+<div id="container">
+    <div id="distance-form">
+        <p style="font-size: 2em;">Podaj liczbę kilometrów</p>
+        <form action="register" method="post">
+            Liczba kilometrów:
+            <input type="text" name="liczba kilometrów" placeholder="wpisz tutaj"/>
+
+            <br/>
+            Twój koszt transportu to:
+            <input formtarget="_blank" id="cost" name="cost" placeholder="twój koszt to"/>
+            <br/>
+            <br/>
+            <a class="distance-button" href="#" onclick="this.parentNode.submit();">Twój koszt transportu to:</a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
