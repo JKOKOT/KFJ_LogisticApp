@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
+
+    <title>Rejestracja do Aplikacji Logistyka</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="Logistyka.jpg"/>
+    </div>
+<br/>
+<div id="container">
+    <div id="Login">
+        <p style="font-size: 4em;">Załóż konto</p>
+        <form action="register" method="post">
+            <label for="Login">Login:</label>
+            <input type="text" name="login" id="login-form" placeholder="tutaj wpisać"/>
+            <br/>
+            <div id="password">
+                <label for="password">Hasło</label>
+                <input type="password" id="hasło" name="password" placeholder="tutaj wpisać"/>
+                <br/>
+                <br/>
+                <label for="hasło">Zatwierdź hasło</label>
+                <input type="password" id="hasło2" name="password2" placeholder="tutaj wpisać"/>
+                <br/>
+                <a class="login-button" href="#" onclick="this.parentNode.submit();">Zarejestruj się</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
